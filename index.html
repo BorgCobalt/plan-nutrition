@@ -111,6 +111,10 @@ h1, h2, .display {
   text-transform: uppercase; letter-spacing: 0.03em;
 }
 .meal-time { font-size: 11px; color: var(--ink-faint); }
+.meal-badge {
+  margin-left: auto; font-size: 10px; font-weight: 700; color: var(--terracotta);
+  background: var(--terracotta-bg); padding: 2px 7px; border-radius: 20px;
+}
 .meal-text { font-size: 14px; color: var(--ink); line-height: 1.4; }
 
 /* ── SHOPPING ── */
@@ -231,6 +235,18 @@ function timeAgo(iso) {
   return `il y a ${Math.floor(diff/86400)} j`;
 }
 
+function doubleQuantities(text) {
+  if (!text) return text;
+  return text.replace(/\d+(?:[.,]\d+)?/g, match => {
+    const num = parseFloat(match.replace(',', '.'));
+    if (isNaN(num)) return match;
+    let doubled = Math.round(num * 2 * 100) / 100;
+    let str = String(doubled);
+    if (match.includes(',')) str = str.replace('.', ',');
+    return str;
+  });
+}
+
 function el(html) {
   const t = document.createElement('template');
   t.innerHTML = html.trim();
@@ -292,12 +308,21 @@ function renderRepas() {
   const today = todayIso();
   (state.plan.days || []).forEach(day => {
     const isToday = day.date === today;
-    const rows = MEAL_SLOTS.map(slot => `
+    const rows = MEAL_SLOTS.map(slot => {
+      const isDiner = slot.key === 'diner';
+      const raw = day[slot.key] || '—';
+      const text = isDiner ? doubleQuantities(raw) : raw;
+      return `
       <div class="meal-row">
-        <div class="meal-head"><span class="meal-tag">${slot.label}</span><span class="meal-time">${slot.time}</span></div>
-        <div class="meal-text">${day[slot.key] || '—'}</div>
+        <div class="meal-head">
+          <span class="meal-tag">${slot.label}</span>
+          <span class="meal-time">${slot.time}</span>
+          ${isDiner ? '<span class="meal-badge">×2 pers.</span>' : ''}
+        </div>
+        <div class="meal-text">${text}</div>
       </div>
-    `).join('');
+    `;
+    }).join('');
     const card = el(`
       <div class="day-card ${isToday?'today':''}">
         <div class="day-head">
