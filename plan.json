@@ -1,144 +1,139 @@
 {
   "weekOf": "2026-08-31",
-  "updatedAt": "2026-08-31T08:48:42Z",
+  "updatedAt": "2026-08-31T11:34:37Z",
   "days": [
     {
       "date": "2026-08-31",
       "label": "Lundi",
-      "avant": "Eau + café noir",
-      "petitDej": "3 œufs brouillés + 50 g flocons d'avoine en porridge (lait demi-écrémé) + 1 banane",
-      "collation1": "1 pomme + 20 g amandes",
-      "dejeuner": "Poulet grillé 180 g + riz complet 90 g (poids cru) + brocolis et carottes à volonté + 1 c.à.s huile d'olive",
-      "collation2": "Fromage blanc 0% 150 g + 1 kiwi",
-      "diner": "Cabillaud (surgelé) 180 g + haricots verts à volonté + riz complet 60 g (cuit, reste du midi)"
+      "avant": "Eau + café noir, 2-3 dattes",
+      "petitDej": "3 œufs brouillés (150g) + 60g flocons d'avoine avec lait + 1 banane",
+      "collation1": "1 pomme + 30g amandes",
+      "dejeuner": "150g blanc de poulet grillé + 180g riz complet cuit + légumes vapeur à volonté (brocolis, carottes) + 1 c.à.s. huile d'olive",
+      "collation2": "150g skyr + une poignée de myrtilles surgelées (80g)",
+      "diner": "Pour 2 personnes : 300g cabillaud (surgelé) au four + légumes vapeur à volonté (brocolis, carottes surgelés, ~400g) + 300g patate douce + huile d'olive"
     },
     {
       "date": "2026-09-01",
       "label": "Mardi",
-      "avant": "Eau + café noir + 3 dattes (séance intense)",
-      "petitDej": "Skyr 200 g + 60 g flocons d'avoine + 50 g myrtilles surgelées + 1 c.à.c miel",
-      "collation1": "Skyr 150 g + 1 clémentine",
-      "dejeuner": "Cabillaud (surgelé) 200 g + quinoa 100 g (poids cru) + haricots verts à volonté + 1 c.à.s huile d'olive",
-      "collation2": "2 œufs durs + 1 mandarine",
-      "diner": "Omelette 3 œufs + poivrons et champignons sautés + 1 tranche pain complet"
+      "avant": "Eau + café noir, 1 banane (séance intense)",
+      "petitDej": "200g fromage blanc + 70g flocons d'avoine + 1 c.à.s. miel + fruits rouges surgelés (80g)",
+      "collation1": "1 yaourt protéiné (skyr) + 1 poire",
+      "dejeuner": "150g steak haché 5% + 200g riz complet cuit + légumes à volonté (haricots verts, poivrons) + 1 c.à.s. huile d'olive",
+      "collation2": "2 œufs durs + 1 orange",
+      "diner": "Pour 2 personnes : 300g dinde émincée + légumes sautés (poireaux, carottes, épinards, ~350g) + 300g quinoa cuit + huile d'olive"
     },
     {
       "date": "2026-09-02",
       "label": "Mercredi",
-      "avant": "Eau + thé vert",
-      "petitDej": "3 œufs (omelette) + 2 tranches pain complet + 1/2 avocat",
-      "collation1": "20 g noix + 1 poire",
-      "dejeuner": "Lentilles cuites 200 g (sachet) + poulet 150 g + salade verte + tomates + 1 c.à.s huile d'olive",
-      "collation2": "Skyr 150 g + 50 g fruits rouges surgelés",
-      "diner": "Poulet 170 g + carottes et brocolis rôtis + quinoa 60 g (poids cru)"
+      "avant": "Eau + thé, 2-3 dattes",
+      "petitDej": "3 œufs (150g) + 2 tranches pain complet + 1 orange",
+      "collation1": "1 banane + 30g noix",
+      "dejeuner": "150g pavé de saumon + 180g quinoa cuit + légumes à volonté (épinards, tomates) + huile d'olive",
+      "collation2": "150g skyr + fruits rouges surgelés (80g)",
+      "diner": "Pour 2 personnes : 300g escalopes de poulet + légumes à volonté (brocolis, carottes, champignons, ~400g) + 300g riz complet cuit + huile d'olive"
     },
     {
       "date": "2026-09-03",
       "label": "Jeudi",
-      "avant": "Eau + café noir",
-      "petitDej": "Fromage blanc 0% 250 g + 50 g flocons d'avoine + 1 pomme coupée + cannelle",
-      "collation1": "2 œufs durs + 1 mandarine",
-      "dejeuner": "Escalope de dinde 180 g + patate douce 250 g + épinards à volonté + 1 c.à.s huile d'olive",
-      "collation2": "20 g amandes + 1 poire",
-      "diner": "Cabillaud (surgelé) 180 g + salade verte + haricots blancs 100 g (conserve)"
+      "avant": "Eau + café noir, 1 banane",
+      "petitDej": "200g skyr + 60g flocons d'avoine + 1 orange",
+      "collation1": "1 yaourt protéiné + 30g amandes",
+      "dejeuner": "200g lentilles cuites (sachet cuisson) + 150g poisson blanc (cabillaud) + légumes à volonté (tomates, salade) + huile d'olive",
+      "collation2": "2 œufs durs + 1 pomme",
+      "diner": "Pour 2 personnes : 300g escalopes de poulet + légumes rôtis à volonté (poivrons, aubergine, carottes, ~400g) + 300g patate douce + huile d'olive"
     },
     {
       "date": "2026-09-04",
       "label": "Vendredi",
-      "avant": "Eau + thé + 1 banane si besoin d'énergie",
-      "petitDej": "3 œufs + 50 g flocons d'avoine en porridge + 1 poire",
-      "collation1": "1 banane + 20 g noix de cajou",
-      "dejeuner": "Filet de saumon (surgelé) 180 g + riz complet 90 g (poids cru) + poivrons à volonté + 1 c.à.s huile d'olive",
-      "collation2": "Fromage blanc 0% 150 g + quelques amandes (15 g)",
-      "diner": "Dinde hachée 170 g + poivrons, champignons et épinards sautés + riz complet 50 g (poids cru)"
+      "avant": "Eau + thé, 2-3 dattes",
+      "petitDej": "3 œufs (150g) + 2 tranches pain complet + 1 pomme",
+      "collation1": "1 banane + 30g noix",
+      "dejeuner": "150g dinde émincée + 180g riz complet cuit + légumes à volonté (haricots verts, carottes) + huile d'olive",
+      "collation2": "150g skyr + 1 banane",
+      "diner": "Pour 2 personnes : 300g cabillaud (surgelé) + légumes à volonté (poivrons, brocolis surgelés, ~400g) + 300g quinoa cuit + huile d'olive"
     },
     {
       "date": "2026-09-05",
       "label": "Samedi",
-      "avant": "Eau + café noir + 3 dattes (séance intense, planning décalé ~1h30 car séance à 9h)",
-      "petitDej": "Skyr 250 g + 70 g flocons d'avoine + 1 banane + 1 c.à.s miel",
-      "collation1": "Skyr 150 g + 1 pêche",
-      "dejeuner": "Poulet 200 g + quinoa 110 g (poids cru) + légumes mélangés surgelés à volonté + 1/4 avocat + 1 c.à.s huile d'olive",
-      "collation2": "2 œufs durs + 1 pomme",
-      "diner": "Maquereau (surgelé) 170 g + légumes vapeur à volonté + patate douce 150 g"
+      "avant": "~8h : Eau + café noir, 1 banane (séance intense 9h, planning décalé de 1-2h)",
+      "petitDej": "~9h30-10h : 3 œufs (150g) + 60g flocons d'avoine + 1 pomme",
+      "collation1": "~12h : 1 yaourt protéiné (skyr) + 30g amandes",
+      "dejeuner": "~14h : 150g blanc de poulet + 200g riz complet cuit + légumes à volonté (brocolis, carottes) + huile d'olive",
+      "collation2": "~17h30 : 150g skyr + 1 orange",
+      "diner": "~20h, pour 2 personnes : 300g maquereau/sardines (conserves ou filets) + légumes à volonté (épinards, poivrons, ~400g) + 300g patate douce + huile d'olive"
     },
     {
       "date": "2026-09-06",
       "label": "Dimanche",
-      "avant": "Eau + thé vert",
-      "petitDej": "3 œufs + 2 tranches pain complet + 1/2 avocat + tomate",
-      "collation1": "20 g amandes + 1 pomme",
-      "dejeuner": "Pois chiches 200 g (conserve) + cabillaud 150 g + salade verte + 1 c.à.s huile d'olive",
-      "collation2": "Skyr 150 g + 1 clémentine",
-      "diner": "Soupe de légumes maison + 2 œufs + 1 tranche pain complet + fromage blanc 100 g en dessert"
+      "avant": "~8h : Eau + thé, 2-3 dattes (planning décalé de 1-2h)",
+      "petitDej": "~9h30 : 200g fromage blanc + 60g flocons d'avoine + 1 poire",
+      "collation1": "~12h : 1 orange + 30g noix",
+      "dejeuner": "~14h : 150g dinde émincée + 180g quinoa cuit + légumes à volonté (tomates, salade) + huile d'olive",
+      "collation2": "~17h : 2 œufs durs + 1 pomme",
+      "diner": "~20h, pour 2 personnes : 300g bœuf haché 5% + légumes à volonté (brocolis, carottes, poivrons, ~400g) + 300g riz complet cuit + huile d'olive"
     }
   ],
   "shopping": [
     {
       "category": "Proteines",
       "items": [
-        "Œufs — 3 boîtes de 12",
-        "Blanc de poulet / escalopes — 1,4 kg",
-        "Cabillaud surgelé (filets) — 1,4 kg",
-        "Filets de saumon surgelés — 350 g",
-        "Maquereau surgelé — 350 g",
-        "Escalopes de dinde — 350 g",
-        "Dinde hachée — 350 g",
-        "Lentilles cuites (sachet ou conserve) — 2 unités (400 g)",
-        "Haricots blancs (conserve) — 1 boîte (400 g)",
-        "Pois chiches (conserve) — 2 boîtes (400 g)"
+        "Œufs x24 (2 boîtes de 12)",
+        "Blanc de poulet / escalopes ~900g",
+        "Dinde émincée ~450g",
+        "Bœuf haché 5% ~450g",
+        "Cabillaud surgelé ~800g",
+        "Saumon (frais ou surgelé) ~150g",
+        "Maquereau ou sardines en conserve (3-4 boîtes ~125g)",
+        "Lentilles cuites (1-2 sachets cuisson)"
       ]
     },
     {
       "category": "Feculents",
       "items": [
-        "Riz complet — 1 kg",
-        "Quinoa — 500 g",
-        "Flocons d'avoine — 500 g",
-        "Patate douce — 800 g",
-        "Pain complet en tranches — 1 pain"
+        "Riz complet 1kg",
+        "Quinoa 500g",
+        "Flocons d'avoine 500g",
+        "Patate douce ~1kg",
+        "Pain complet en tranches (1 sachet)"
       ]
     },
     {
       "category": "Fruits & legumes",
       "items": [
-        "Bananes — 6",
-        "Pommes — 8",
-        "Poires — 4",
-        "Kiwis — 2",
-        "Clémentines / mandarines — 8",
-        "Pêches — 2",
-        "Dattes — 1 petit paquet (~12)",
-        "Avocats — 3",
-        "Fruits rouges surgelés (myrtilles, etc.) — 1 sachet 300 g",
-        "Brocolis surgelés — 500 g",
-        "Haricots verts surgelés — 500 g",
-        "Épinards surgelés — 500 g",
-        "Légumes mélangés surgelés — 1 kg",
-        "Carottes — 500 g",
-        "Poivrons — 4",
-        "Champignons — 250 g",
-        "Salade verte — 2 sachets",
-        "Tomates — 500 g"
+        "Bananes x8",
+        "Pommes x4",
+        "Poires x3",
+        "Oranges x4",
+        "Fruits rouges surgelés 500g",
+        "Dattes (sachet 200g)",
+        "Brocolis surgelés 1kg",
+        "Carottes 1kg",
+        "Poivrons x4",
+        "Épinards surgelés 500g",
+        "Champignons frais 250g",
+        "Haricots verts surgelés 500g",
+        "Tomates x4",
+        "Poireaux x2",
+        "Salade verte x1",
+        "Aubergine x1"
       ]
     },
     {
       "category": "Produits laitiers/frais",
       "items": [
-        "Skyr — environ 2,1 kg (pots)",
-        "Fromage blanc 0% — environ 1,3 kg",
-        "Lait demi-écrémé — 1 L"
+        "Fromage blanc / skyr nature ~1kg (pots ou tubs)",
+        "Lait demi-écrémé 1L"
       ]
     },
     {
       "category": "Epicerie/autres",
       "items": [
-        "Huile d'olive — 1 bouteille (si besoin)",
-        "Miel — 1 petit pot",
-        "Mélange oléagineux (amandes, noix, noix de cajou) — 200 g",
-        "Café / thé — selon stock"
+        "Huile d'olive",
+        "Miel (petit pot)",
+        "Amandes et noix mélangées 200g",
+        "Café / thé (si besoin de réapprovisionner)"
       ]
     }
   ],
-  "notes": "Plan calculé pour Nicolas seul (2200-2400 kcal/j, ~185 g protéines/j) ; liste de courses doublée pour 2 personnes. Privilégié surgelés/conserves pour limiter l'encombrement au frigo (poisson, légumes, légumineuses). Budget estimé ~120-135 € pour la semaine (2 personnes), dans la fourchette 100-150 €. Aucun tofu ni courgette. Samedi et mardi = séances intenses (collations/petits-déjeuners un peu plus copieux) ; planning du week-end décalé d'environ 1h30 car séance à 9h."
+  "notes": "Budget estimé ~105-115€ pour la semaine (dans la fourchette 100-150€). Beaucoup de surgelés/conserves (poisson, légumes) pour limiter l'encombrement du petit frigo. Aucun tofu ni courgette. Diners calculés pour 2 personnes (Nicolas + compagne), tous les autres créneaux pour Nicolas seul. Samedi et dimanche : planning décalé de 1-2h (séance à 9h)."
 }
