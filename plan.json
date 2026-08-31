@@ -1,0 +1,17 @@
+{
+  "weekOf": "2026-08-31",
+  "updatedAt": "2026-08-31T00:00:00Z",
+  "days": [
+    { "date": "2026-08-31", "label": "Lundi",    "avant": "À définir", "petitDej": "À définir", "collation1": "À définir", "dejeuner": "À définir", "collation2": "À définir", "diner": "À définir" },
+    { "date": "2026-09-01", "label": "Mardi",    "avant": "À définir", "petitDej": "À définir", "collation1": "À définir", "dejeuner": "À définir", "collation2": "À définir", "diner": "À définir" },
+    { "date": "2026-09-02", "label": "Mercredi", "avant": "À définir", "petitDej": "À définir", "collation1": "À définir", "dejeuner": "À définir", "collation2": "À définir", "diner": "À définir" },
+    { "date": "2026-09-03", "label": "Jeudi",    "avant": "À définir", "petitDej": "À définir", "collation1": "À définir", "dejeuner": "À définir", "collation2": "À définir", "diner": "À définir" },
+    { "date": "2026-09-04", "label": "Vendredi", "avant": "À définir", "petitDej": "À définir", "collation1": "À définir", "dejeuner": "À définir", "collation2": "À définir", "diner": "À définir" },
+    { "date": "2026-09-05", "label": "Samedi",   "avant": "À définir", "petitDej": "À définir", "collation1": "À définir", "dejeuner": "À définir", "collation2": "À définir", "diner": "À définir" },
+    { "date": "2026-09-06", "label": "Dimanche", "avant": "À définir", "petitDej": "À définir", "collation1": "À définir", "dejeuner": "À définir", "collation2": "À définir", "diner": "À définir" }
+  ],
+  "shopping": [
+    { "category": "Exemple", "items": ["Ceci est un exemple", "La routine de sync remplacera ce contenu"] }
+  ],
+  "notes": ""
+}

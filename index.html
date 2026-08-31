@@ -141,43 +141,6 @@ h1, h2, .display {
 .empty .emoji { font-size: 40px; }
 .empty h2 { font-size: 18px; font-weight: 600; }
 .empty p { font-size: 13.5px; color: var(--ink-dim); line-height: 1.5; }
-.btn {
-  border: none; border-radius: 10px; padding: 12px 20px; font-size: 14px; font-weight: 600;
-  cursor: pointer; background: var(--green); color: #fff;
-}
-.btn:active { background: var(--green-light); }
-.btn-ghost { background: var(--surface-2); color: var(--ink); border: 1px solid var(--border); }
-
-/* ── MODAL ── */
-.modal-backdrop {
-  position: absolute; inset: 0; background: rgba(30,26,18,0.45);
-  display: flex; align-items: flex-end; z-index: 30;
-}
-.modal {
-  width: 100%; background: var(--surface); border-radius: 20px 20px 0 0;
-  padding: 20px 20px calc(env(safe-area-inset-bottom, 0) + 20px); max-height: 85%; overflow-y: auto;
-}
-.modal-title { font-family: 'Fraunces', Georgia, serif; font-size: 18px; font-weight: 600; margin-bottom: 4px; }
-.modal-sub { font-size: 12.5px; color: var(--ink-dim); margin-bottom: 16px; line-height: 1.5; }
-.field { margin-bottom: 14px; }
-.field label { display: block; font-size: 12px; font-weight: 600; color: var(--ink-dim); margin-bottom: 5px; }
-.field input {
-  width: 100%; border: 1px solid var(--border); border-radius: 9px; padding: 11px 12px;
-  font-size: 14px; font-family: inherit; background: var(--surface-2); color: var(--ink);
-}
-.field input:focus { outline: 2px solid var(--green-light); outline-offset: -1px; }
-.modal-actions { display: flex; gap: 10px; margin-top: 6px; }
-.modal-actions .btn { flex: 1; }
-.modal-error { font-size: 12.5px; color: var(--terracotta); margin-top: 10px; }
-.modal-close { position: absolute; top: 14px; right: 16px; background: none; border: none; font-size: 20px; color: var(--ink-faint); cursor: pointer; }
-
-.toast {
-  position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);
-  background: var(--ink); color: #fff; padding: 9px 16px; border-radius: 20px;
-  font-size: 12.5px; box-shadow: var(--shadow); z-index: 40; opacity: 0; pointer-events: none;
-  transition: opacity 0.2s, transform 0.2s;
-}
-.toast.show { opacity: 1; transform: translateX(-50%) translateY(-6px); }
 </style>
 </head>
 <body>
@@ -187,12 +150,10 @@ h1, h2, .display {
 'use strict';
 
 const state = {
-  settings: { token: '', gistId: '' },
   plan: null,
   tab: 'repas',
   loading: false,
   error: '',
-  showSettings: false,
   checked: {},
 };
 
@@ -209,11 +170,9 @@ const MEAL_SLOTS = [
 
 function loadLocal() {
   try {
-    state.settings = JSON.parse(localStorage.getItem('pn-settings') || 'null') || { token: '', gistId: '' };
     state.plan = JSON.parse(localStorage.getItem('pn-plan') || 'null');
   } catch (e) {}
 }
-function saveSettings() { localStorage.setItem('pn-settings', JSON.stringify(state.settings)); }
 function savePlanCache() { if (state.plan) localStorage.setItem('pn-plan', JSON.stringify(state.plan)); }
 
 function loadChecked() {
@@ -231,20 +190,13 @@ function saveChecked() {
 }
 
 async function fetchPlan(showSpinner) {
-  if (!state.settings.token || !state.settings.gistId) { render(); return; }
   state.loading = !!showSpinner;
   state.error = '';
   render();
   try {
-    const r = await fetch(`https://api.github.com/gists/${state.settings.gistId}`, {
-      headers: { 'Authorization': `token ${state.settings.token}`, 'Accept': 'application/vnd.github.v3+json' },
-      cache: 'no-store',
-    });
-    if (!r.ok) throw new Error(r.status === 401 ? 'Token invalide' : r.status === 404 ? 'Gist introuvable' : `Erreur ${r.status}`);
-    const gist = await r.json();
-    const file = gist.files['plan-nutrition.json'] || Object.values(gist.files)[0];
-    if (!file) throw new Error('Aucun fichier dans ce gist');
-    const data = JSON.parse(file.content);
+    const r = await fetch('./plan.json', { cache: 'no-store' });
+    if (!r.ok) throw new Error(`Erreur ${r.status}`);
+    const data = await r.json();
     state.plan = data;
     savePlanCache();
     loadChecked();
@@ -289,12 +241,6 @@ function render() {
   const app = document.getElementById('app');
   app.innerHTML = '';
 
-  if (!state.settings.token || !state.settings.gistId) {
-    app.appendChild(renderOnboarding());
-    if (state.showSettings) app.appendChild(renderSettingsModal());
-    return;
-  }
-
   app.appendChild(renderHeader());
   app.appendChild(renderTabs());
 
@@ -307,9 +253,6 @@ function render() {
     scroll.appendChild(renderCourses());
   }
   app.appendChild(scroll);
-
-  if (state.showSettings) app.appendChild(renderSettingsModal());
-  app.appendChild(el(`<div class="toast" id="toast"></div>`));
 }
 
 function renderHeader() {
@@ -326,14 +269,10 @@ function renderHeader() {
         <button class="icon-btn ${state.loading ? 'spinning' : ''}" id="btn-refresh" aria-label="Actualiser">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v6h-6"/></svg>
         </button>
-        <button class="icon-btn" id="btn-settings" aria-label="Réglages">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-        </button>
       </div>
     </div>
   `);
   h.querySelector('#btn-refresh').addEventListener('click', () => fetchPlan(true));
-  h.querySelector('#btn-settings').addEventListener('click', () => { state.showSettings = true; render(); });
   return h;
 }
 
@@ -407,66 +346,14 @@ function renderCourses() {
   return wrap;
 }
 
-function renderOnboarding() {
-  const wrap = el(`
-    <div class="empty">
-      <div class="emoji">🍽️</div>
-      <h2>Bienvenue</h2>
-      <p>Connecte l'app à ton Gist GitHub pour afficher le plan de repas et la liste de courses de la semaine.</p>
-      <button class="btn" id="btn-setup">Configurer</button>
-    </div>
-  `);
-  wrap.querySelector('#btn-setup').addEventListener('click', () => { state.showSettings = true; render(); });
-  return wrap;
-}
-
-function renderSettingsModal() {
-  const backdrop = el(`
-    <div class="modal-backdrop">
-      <div class="modal">
-        <button class="modal-close" id="m-close">✕</button>
-        <div class="modal-title">Réglages</div>
-        <div class="modal-sub">Le token GitHub (scope <b>gist</b>) et l'identifiant du Gist utilisés par la tâche qui génère ton plan chaque dimanche.</div>
-        <div class="field">
-          <label>Token GitHub</label>
-          <input type="password" id="f-token" placeholder="ghp_xxxxxxxxxxxx" value="${state.settings.token ? state.settings.token.replace(/"/g,'') : ''}">
-        </div>
-        <div class="field">
-          <label>ID du Gist</label>
-          <input type="text" id="f-gist" placeholder="2a1bd4f2347ad7da2e435ce189ecd1e6" value="${state.settings.gistId || ''}">
-        </div>
-        ${state.error ? `<div class="modal-error">${state.error}</div>` : ''}
-        <div class="modal-actions">
-          <button class="btn btn-ghost" id="m-cancel">Annuler</button>
-          <button class="btn" id="m-save">Enregistrer</button>
-        </div>
-      </div>
-    </div>
-  `);
-  const close = () => { state.showSettings = false; render(); };
-  backdrop.addEventListener('click', (e) => { if (e.target === backdrop) close(); });
-  backdrop.querySelector('#m-close').addEventListener('click', close);
-  backdrop.querySelector('#m-cancel').addEventListener('click', close);
-  backdrop.querySelector('#m-save').addEventListener('click', async () => {
-    const token = backdrop.querySelector('#f-token').value.trim();
-    const gistId = backdrop.querySelector('#f-gist').value.trim();
-    if (!token || !gistId) { state.error = 'Renseigne le token et l’ID du gist'; render(); return; }
-    state.settings = { token, gistId };
-    saveSettings();
-    state.showSettings = false;
-    await fetchPlan(true);
-  });
-  return backdrop;
-}
-
 // ── Init ──
 loadLocal();
 loadChecked();
 render();
-if (state.settings.token && state.settings.gistId) fetchPlan(false);
+fetchPlan(!state.plan);
 
 document.addEventListener('visibilitychange', () => {
-  if (document.visibilityState === 'visible' && state.settings.token && state.settings.gistId) fetchPlan(false);
+  if (document.visibilityState === 'visible') fetchPlan(false);
 });
 
 if ('serviceWorker' in navigator) {

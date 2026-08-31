@@ -1,4 +1,4 @@
-const CACHE = 'plan-nutrition-v2';
+const CACHE = 'plan-nutrition-v3';
 const SHELL = ['./', './index.html', './manifest.json', './icon.svg'];
 
 self.addEventListener('install', e => {
@@ -16,8 +16,8 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
 
-  // Data (gist / GitHub API) : toujours le réseau, jamais le cache
-  if (url.hostname.includes('github')) {
+  // Données (plan.json) : toujours le réseau, jamais le cache
+  if (url.pathname.endsWith('/plan.json')) {
     e.respondWith(fetch(e.request).catch(() => new Response('{}', { headers: { 'Content-Type': 'application/json' } })));
     return;
   }
