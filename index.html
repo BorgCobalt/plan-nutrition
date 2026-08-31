@@ -103,12 +103,14 @@ h1, h2, .display {
   margin-left: auto; font-size: 10px; font-weight: 700; color: #fff; background: var(--gold);
   padding: 2px 8px; border-radius: 20px; letter-spacing: 0.03em; text-transform: uppercase;
 }
-.meal-row { display: flex; gap: 10px; padding: 6px 0; }
+.meal-row { padding: 7px 0; }
 .meal-row + .meal-row { border-top: 1px dashed var(--border); }
+.meal-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 2px; }
 .meal-tag {
-  flex-shrink: 0; width: 46px; font-size: 11px; font-weight: 600; color: var(--ink-faint);
-  text-transform: uppercase; letter-spacing: 0.03em; padding-top: 2px;
+  font-size: 11.5px; font-weight: 600; color: var(--green);
+  text-transform: uppercase; letter-spacing: 0.03em;
 }
+.meal-time { font-size: 11px; color: var(--ink-faint); }
 .meal-text { font-size: 14px; color: var(--ink); line-height: 1.4; }
 
 /* ── SHOPPING ── */
@@ -195,6 +197,15 @@ const state = {
 };
 
 const JOURS = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+
+const MEAL_SLOTS = [
+  { key: 'avant',      label: 'Avant la séance',              time: '6h45' },
+  { key: 'petitDej',   label: 'Petit-déjeuner après séance',  time: '8h15' },
+  { key: 'collation1', label: 'Collation',                    time: '10h30' },
+  { key: 'dejeuner',   label: 'Déjeuner',                      time: '12h30-13h' },
+  { key: 'collation2', label: 'Collation',                    time: '16h' },
+  { key: 'diner',      label: 'Dîner',                         time: '19h30-21h' },
+];
 
 function loadLocal() {
   try {
@@ -342,6 +353,12 @@ function renderRepas() {
   const today = todayIso();
   (state.plan.days || []).forEach(day => {
     const isToday = day.date === today;
+    const rows = MEAL_SLOTS.map(slot => `
+      <div class="meal-row">
+        <div class="meal-head"><span class="meal-tag">${slot.label}</span><span class="meal-time">${slot.time}</span></div>
+        <div class="meal-text">${day[slot.key] || '—'}</div>
+      </div>
+    `).join('');
     const card = el(`
       <div class="day-card ${isToday?'today':''}">
         <div class="day-head">
@@ -349,8 +366,7 @@ function renderRepas() {
           <span class="day-date">${fmtDate(day.date)}</span>
           ${isToday ? '<span class="today-badge">Aujourd’hui</span>' : ''}
         </div>
-        <div class="meal-row"><span class="meal-tag">Midi</span><span class="meal-text">${day.midi || '—'}</span></div>
-        <div class="meal-row"><span class="meal-tag">Soir</span><span class="meal-text">${day.soir || '—'}</span></div>
+        ${rows}
       </div>
     `);
     wrap.appendChild(card);
