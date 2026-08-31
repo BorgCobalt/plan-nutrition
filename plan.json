@@ -1,145 +1,144 @@
 {
   "weekOf": "2026-08-31",
-  "updatedAt": "2026-08-31T08:37:29Z",
+  "updatedAt": "2026-08-31T08:48:42Z",
   "days": [
     {
       "date": "2026-08-31",
       "label": "Lundi",
-      "avant": "Eau + café noir (rien de solide, séance modérée à 6h45)",
-      "petitDej": "3 œufs brouillés + 50g flocons d'avoine cuits au lait demi-écrémé + 1 banane",
-      "collation1": "1 yaourt grec nature (170g) + 20g amandes",
-      "dejeuner": "160g blanc de poulet grillé + 180g riz complet cuit + brocolis et courgettes à volonté + 1 c. à soupe huile d'olive",
-      "collation2": "200g fromage blanc 3% + 1 pomme",
-      "diner": "150g cabillaud vapeur + légumes rôtis à volonté (poivrons, courgettes, tomates) + 120g patate douce + filet d'huile d'olive"
+      "avant": "Eau + café noir",
+      "petitDej": "3 œufs brouillés + 50 g flocons d'avoine en porridge (lait demi-écrémé) + 1 banane",
+      "collation1": "1 pomme + 20 g amandes",
+      "dejeuner": "Poulet grillé 180 g + riz complet 90 g (poids cru) + brocolis et carottes à volonté + 1 c.à.s huile d'olive",
+      "collation2": "Fromage blanc 0% 150 g + 1 kiwi",
+      "diner": "Cabillaud (surgelé) 180 g + haricots verts à volonté + riz complet 60 g (cuit, reste du midi)"
     },
     {
       "date": "2026-09-01",
       "label": "Mardi",
-      "avant": "Eau + café. 1 banane ou 3-4 dattes avant la séance intense",
-      "petitDej": "200g skyr nature + 60g flocons d'avoine + 100g fruits rouges + 10g miel",
-      "collation1": "20g noix + 1 orange",
-      "dejeuner": "180g steak haché 5% MG + 200g quinoa cuit + haricots verts et carottes à volonté + 1 c. à soupe huile d'olive",
-      "collation2": "2 œufs durs + 1 poire",
-      "diner": "160g saumon au four + épinards et courgettes à volonté + 100g riz complet cuit"
+      "avant": "Eau + café noir + 3 dattes (séance intense)",
+      "petitDej": "Skyr 200 g + 60 g flocons d'avoine + 50 g myrtilles surgelées + 1 c.à.c miel",
+      "collation1": "Skyr 150 g + 1 clémentine",
+      "dejeuner": "Cabillaud (surgelé) 200 g + quinoa 100 g (poids cru) + haricots verts à volonté + 1 c.à.s huile d'olive",
+      "collation2": "2 œufs durs + 1 mandarine",
+      "diner": "Omelette 3 œufs + poivrons et champignons sautés + 1 tranche pain complet"
     },
     {
       "date": "2026-09-02",
       "label": "Mercredi",
-      "avant": "Eau + thé (rien de solide)",
-      "petitDej": "3 œufs au plat + 2 tranches de pain complet + 1/2 avocat",
-      "collation1": "1 yaourt grec nature (170g) + 1 kiwi",
-      "dejeuner": "150g dinde grillée + 180g riz complet cuit + poivrons et brocolis à volonté + 1 c. à soupe huile d'olive",
-      "collation2": "200g fromage blanc 3% + 100g myrtilles",
-      "diner": "160g cabillaud + légumes verts vapeur à volonté + 100g lentilles cuites"
+      "avant": "Eau + thé vert",
+      "petitDej": "3 œufs (omelette) + 2 tranches pain complet + 1/2 avocat",
+      "collation1": "20 g noix + 1 poire",
+      "dejeuner": "Lentilles cuites 200 g (sachet) + poulet 150 g + salade verte + tomates + 1 c.à.s huile d'olive",
+      "collation2": "Skyr 150 g + 50 g fruits rouges surgelés",
+      "diner": "Poulet 170 g + carottes et brocolis rôtis + quinoa 60 g (poids cru)"
     },
     {
       "date": "2026-09-03",
       "label": "Jeudi",
       "avant": "Eau + café noir",
-      "petitDej": "50g flocons d'avoine + 200g skyr nature + 1 banane + 15g amandes effilées",
-      "collation1": "2 œufs durs + 1 pomme",
-      "dejeuner": "170g blanc de poulet + 180g patate douce rôtie + salade verte et tomates à volonté + 1 c. à soupe huile d'olive",
-      "collation2": "1 yaourt grec nature (170g) + 20g noix de cajou",
-      "diner": "150g dinde sautée + courgettes et champignons à volonté + 100g quinoa cuit"
+      "petitDej": "Fromage blanc 0% 250 g + 50 g flocons d'avoine + 1 pomme coupée + cannelle",
+      "collation1": "2 œufs durs + 1 mandarine",
+      "dejeuner": "Escalope de dinde 180 g + patate douce 250 g + épinards à volonté + 1 c.à.s huile d'olive",
+      "collation2": "20 g amandes + 1 poire",
+      "diner": "Cabillaud (surgelé) 180 g + salade verte + haricots blancs 100 g (conserve)"
     },
     {
       "date": "2026-09-04",
       "label": "Vendredi",
-      "avant": "Eau + café (optionnel : 1 fruit si besoin d'énergie)",
-      "petitDej": "3 œufs brouillés + 200g skyr nature + une poignée de fruits rouges",
-      "collation1": "1 pomme + 20g amandes",
-      "dejeuner": "160g saumon grillé + 150g riz complet cuit + haricots verts à volonté + filet d'huile d'olive",
-      "collation2": "200g fromage blanc 3% + 1 orange",
-      "diner": "150g blanc de poulet + légumes rôtis à volonté (aubergines, poivrons, oignons) + 100g patate douce"
+      "avant": "Eau + thé + 1 banane si besoin d'énergie",
+      "petitDej": "3 œufs + 50 g flocons d'avoine en porridge + 1 poire",
+      "collation1": "1 banane + 20 g noix de cajou",
+      "dejeuner": "Filet de saumon (surgelé) 180 g + riz complet 90 g (poids cru) + poivrons à volonté + 1 c.à.s huile d'olive",
+      "collation2": "Fromage blanc 0% 150 g + quelques amandes (15 g)",
+      "diner": "Dinde hachée 170 g + poivrons, champignons et épinards sautés + riz complet 50 g (poids cru)"
     },
     {
       "date": "2026-09-05",
       "label": "Samedi",
-      "avant": "~7h45 : eau + café. 1 banane ou dattes avant la séance intense de 9h",
-      "petitDej": "~10h15 (après séance) : 200g skyr nature + 60g flocons d'avoine + 1 banane + 10g miel",
-      "collation1": "~12h : 1 yaourt grec nature (170g) + 20g noix",
-      "dejeuner": "~14h-14h30 : 180g steak haché 5% MG + 200g riz complet cuit + légumes verts et carottes à volonté + 1 c. à soupe huile d'olive",
-      "collation2": "~17h30 : 2 œufs durs + 1 poire",
-      "diner": "~20h30-21h : 160g cabillaud + légumes rôtis à volonté + 100g quinoa cuit"
+      "avant": "Eau + café noir + 3 dattes (séance intense, planning décalé ~1h30 car séance à 9h)",
+      "petitDej": "Skyr 250 g + 70 g flocons d'avoine + 1 banane + 1 c.à.s miel",
+      "collation1": "Skyr 150 g + 1 pêche",
+      "dejeuner": "Poulet 200 g + quinoa 110 g (poids cru) + légumes mélangés surgelés à volonté + 1/4 avocat + 1 c.à.s huile d'olive",
+      "collation2": "2 œufs durs + 1 pomme",
+      "diner": "Maquereau (surgelé) 170 g + légumes vapeur à volonté + patate douce 150 g"
     },
     {
       "date": "2026-09-06",
       "label": "Dimanche",
-      "avant": "~7h45 : eau + thé (optionnel : 1 fruit)",
-      "petitDej": "~10h15 (après séance) : 3 œufs + 2 tranches de pain complet + 1/2 avocat",
-      "collation1": "~12h : 1 yaourt grec nature (170g) + 1 kiwi",
-      "dejeuner": "~14h : 170g blanc de poulet + 180g patate douce + brocolis et courgettes à volonté + 1 c. à soupe huile d'olive",
-      "collation2": "~17h30 : 200g fromage blanc 3% + 1 pomme",
-      "diner": "~20h-20h30 : 150g dinde grillée + légumes verts à volonté + 100g lentilles cuites"
+      "avant": "Eau + thé vert",
+      "petitDej": "3 œufs + 2 tranches pain complet + 1/2 avocat + tomate",
+      "collation1": "20 g amandes + 1 pomme",
+      "dejeuner": "Pois chiches 200 g (conserve) + cabillaud 150 g + salade verte + 1 c.à.s huile d'olive",
+      "collation2": "Skyr 150 g + 1 clémentine",
+      "diner": "Soupe de légumes maison + 2 œufs + 1 tranche pain complet + fromage blanc 100 g en dessert"
     }
   ],
   "shopping": [
     {
       "category": "Proteines",
       "items": [
-        "Œufs : 36 (3 boîtes de 12)",
-        "Blanc de poulet : 1,3 kg",
-        "Escalopes de dinde : 900 g",
-        "Filets de cabillaud : 950 g",
-        "Pavés de saumon : 650 g",
-        "Steak haché 5% MG : 720 g"
+        "Œufs — 3 boîtes de 12",
+        "Blanc de poulet / escalopes — 1,4 kg",
+        "Cabillaud surgelé (filets) — 1,4 kg",
+        "Filets de saumon surgelés — 350 g",
+        "Maquereau surgelé — 350 g",
+        "Escalopes de dinde — 350 g",
+        "Dinde hachée — 350 g",
+        "Lentilles cuites (sachet ou conserve) — 2 unités (400 g)",
+        "Haricots blancs (conserve) — 1 boîte (400 g)",
+        "Pois chiches (conserve) — 2 boîtes (400 g)"
       ]
     },
     {
       "category": "Feculents",
       "items": [
-        "Flocons d'avoine : 500 g",
-        "Pain complet : 1 pain de mie complet",
-        "Riz complet : 700 g",
-        "Quinoa : 300 g",
-        "Patate douce : 1,2 kg",
-        "Lentilles cuites (sachet cuisson ou conserve) : 400 g"
+        "Riz complet — 1 kg",
+        "Quinoa — 500 g",
+        "Flocons d'avoine — 500 g",
+        "Patate douce — 800 g",
+        "Pain complet en tranches — 1 pain"
       ]
     },
     {
       "category": "Fruits & legumes",
       "items": [
-        "Bananes : 6",
-        "Pommes : 8",
-        "Oranges : 4",
-        "Poires : 4",
-        "Kiwis : 4",
-        "Fruits rouges / myrtilles (frais ou surgelés) : 600 g",
-        "Brocolis : 2 têtes",
-        "Courgettes : 8",
-        "Poivrons : 6",
-        "Tomates : 1 kg",
-        "Haricots verts : 500 g",
-        "Carottes : 500 g",
-        "Épinards frais : 400 g",
-        "Champignons : 400 g",
-        "Aubergines : 4",
-        "Oignons : 4",
-        "Salade verte : 2 sachets",
-        "Avocats : 2"
+        "Bananes — 6",
+        "Pommes — 8",
+        "Poires — 4",
+        "Kiwis — 2",
+        "Clémentines / mandarines — 8",
+        "Pêches — 2",
+        "Dattes — 1 petit paquet (~12)",
+        "Avocats — 3",
+        "Fruits rouges surgelés (myrtilles, etc.) — 1 sachet 300 g",
+        "Brocolis surgelés — 500 g",
+        "Haricots verts surgelés — 500 g",
+        "Épinards surgelés — 500 g",
+        "Légumes mélangés surgelés — 1 kg",
+        "Carottes — 500 g",
+        "Poivrons — 4",
+        "Champignons — 250 g",
+        "Salade verte — 2 sachets",
+        "Tomates — 500 g"
       ]
     },
     {
       "category": "Produits laitiers/frais",
       "items": [
-        "Yaourt grec nature : 10 pots (170 g)",
-        "Skyr nature : 8 pots (200 g)",
-        "Fromage blanc 3% : 8 pots (200 g)",
-        "Lait demi-écrémé : 1 L"
+        "Skyr — environ 2,1 kg (pots)",
+        "Fromage blanc 0% — environ 1,3 kg",
+        "Lait demi-écrémé — 1 L"
       ]
     },
     {
       "category": "Epicerie/autres",
       "items": [
-        "Huile d'olive : 1 bouteille",
-        "Amandes (entières + effilées) : 100 g",
-        "Noix : 100 g",
-        "Noix de cajou : 50 g",
-        "Dattes (optionnel avant séance) : 1 petit sachet",
-        "Miel : 1 petit pot",
-        "Café / thé : au besoin"
+        "Huile d'olive — 1 bouteille (si besoin)",
+        "Miel — 1 petit pot",
+        "Mélange oléagineux (amandes, noix, noix de cajou) — 200 g",
+        "Café / thé — selon stock"
       ]
     }
   ],
-  "notes": "Plan calculé pour Nicolas seul (repas) et courses doublées pour 2 personnes. Objectif 2200-2400 kcal/j, ~185g protéines, ~75g lipides, ~220g glucides. Aucun tofu. Séances plus intenses mardi et samedi ; horaires décalés le week-end (séance à 9h)."
+  "notes": "Plan calculé pour Nicolas seul (2200-2400 kcal/j, ~185 g protéines/j) ; liste de courses doublée pour 2 personnes. Privilégié surgelés/conserves pour limiter l'encombrement au frigo (poisson, légumes, légumineuses). Budget estimé ~120-135 € pour la semaine (2 personnes), dans la fourchette 100-150 €. Aucun tofu ni courgette. Samedi et mardi = séances intenses (collations/petits-déjeuners un peu plus copieux) ; planning du week-end décalé d'environ 1h30 car séance à 9h."
 }
