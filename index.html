@@ -239,6 +239,8 @@ function el(html) {
 
 function render() {
   const app = document.getElementById('app');
+  const prevScroll = app.querySelector('.scroll');
+  const scrollTop = prevScroll ? prevScroll.scrollTop : 0;
   app.innerHTML = '';
 
   app.appendChild(renderHeader());
@@ -253,6 +255,7 @@ function render() {
     scroll.appendChild(renderCourses());
   }
   app.appendChild(scroll);
+  scroll.scrollTop = scrollTop;
 }
 
 function renderHeader() {
