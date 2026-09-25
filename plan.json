@@ -1,98 +1,98 @@
 {
-  "weekOf": "2026-09-18",
-  "updatedAt": "2026-09-18T00:00:00Z",
+  "weekOf": "2026-09-25",
+  "updatedAt": "2026-09-25T11:22:00Z",
   "days": [
     {
-      "date": "2026-09-18",
+      "date": "2026-09-25",
       "label": "Vendredi",
-      "avant": "6h45 – Eau + café, 3 dattes (20g) avant la séance",
-      "petitDej": "8h15 – 3 oeufs brouillés (150g) + 50g flocons d'avoine cuits dans 200ml de lait demi-écrémé + 1 kiwi",
-      "collation1": "10h30 – 1 banane + 20g amandes",
-      "dejeuner": "12h45 – 2 oeufs durs (100g) + 100g thon au naturel (boîte, égoutté) + 180g riz complet + salade de tomates, concombre et radis + 1 c.à.s huile d'olive",
-      "collation2": "16h – 150g skyr nature + 1 clémentine",
-      "diner": "19h30 (pour 2 personnes) – 320g filet de cabillaud (surgelé) au four + 300g pommes de terre vapeur + haricots verts surgelés + citron + 2 c.à.s huile d'olive"
+      "avant": "6h45 – Eau + café, 1 pomme si besoin d'énergie",
+      "petitDej": "8h15 – 3 oeufs brouillés (150g) + 50g flocons d'avoine cuits dans 200ml de lait demi-écrémé + 1 poire",
+      "collation1": "10h30 – 1 grappe de raisin (150g) + 20g noix de cajou",
+      "dejeuner": "12h45 – 160g blanc de poulet grillé + 180g quinoa + salade de tomates et poivrons + 1 c.à.s huile d'olive",
+      "collation2": "16h – 150g fromage blanc 0% + 1 pêche",
+      "diner": "19h30 (pour 2 personnes) – 320g filet de merlu (surgelé) au four + 300g pommes de terre vapeur + épinards frais sautés + citron + 2 c.à.s huile d'olive"
     },
     {
-      "date": "2026-09-19",
+      "date": "2026-09-26",
       "label": "Samedi",
       "avant": "8h00 – Eau + café, 1 banane avant la séance (plus intense)",
-      "petitDej": "10h15 – 200g fromage blanc 0% + 60g flocons d'avoine + 80g framboises surgelées + 1 c.à.c miel",
-      "collation1": "12h30 – 2 oeufs durs + 1 orange",
-      "dejeuner": "13h30 – 200g lentilles vertes cuites + 2 oeufs durs émincés + salade de tomates et radis + 1 c.à.s huile d'olive",
-      "collation2": "17h – 170g yaourt grec + 20g noix",
-      "diner": "20h00 (pour 2 personnes) – 320g steak haché 5% grillé + 250g semoule complète + fenouil et carottes rôtis + 1 c.à.s huile d'olive"
+      "petitDej": "10h15 – 200g skyr nature + 60g flocons d'avoine + 2 figues fraîches + 1 c.à.c miel",
+      "collation1": "12h30 – 2 oeufs durs + 1 pomme",
+      "dejeuner": "13h30 – 180g dinde hachée poêlée + 200g riz complet + aubergines et poivrons rôtis + 1 c.à.s huile d'olive",
+      "collation2": "17h – 170g yaourt grec + 20g amandes",
+      "diner": "20h00 (pour 2 personnes) – 320g pavé de truite (surgelé) en papillote + 250g semoule complète + chou-fleur rôti + 2 c.à.s huile d'olive"
     },
     {
-      "date": "2026-09-20",
+      "date": "2026-09-27",
       "label": "Dimanche",
       "avant": "8h00 – Eau + thé, 3 dattes",
-      "petitDej": "10h15 – Omelette 3 oeufs + 30g emmental râpé léger + 1 tranche de pain complet + 1 poire",
-      "collation1": "12h30 – 150g skyr nature + 1 nectarine",
-      "dejeuner": "13h30 – 140g thon au naturel (boîte) + 180g quinoa + épinards frais sautés + 1 c.à.s huile d'olive",
-      "collation2": "17h – 2 oeufs durs + 1 kiwi",
-      "diner": "20h00 (pour 2 personnes) – Curry léger de crevettes et lentilles corail (300g crevettes surgelées + 150g lentilles corail + lait de coco allégé + épices) + 240g riz complet + salade verte"
+      "petitDej": "10h15 – Omelette 3 oeufs + 30g comté râpé + 1 tranche de pain complet + 1 grappe de raisin",
+      "collation1": "12h30 – 150g skyr nature + 1 pêche",
+      "dejeuner": "13h30 – 150g maquereau au naturel (boîte, égoutté) + 180g quinoa + betteraves cuites et roquette + 1 c.à.s huile d'olive",
+      "collation2": "17h – 2 oeufs durs + 1 poire",
+      "diner": "20h00 (pour 2 personnes) – Chili de dinde et pois chiches (300g dinde hachée + 200g pois chiches en boîte + sauce tomate + poivrons) + 240g riz complet + salade verte"
     },
     {
-      "date": "2026-09-21",
+      "date": "2026-09-28",
       "label": "Lundi",
-      "avant": "6h45 – Eau + café, 1 pomme si besoin d'énergie",
-      "petitDej": "8h15 – 200g skyr nature + 50g flocons d'avoine + 1 orange + 15g noix",
-      "collation1": "10h30 – 1 kiwi + 20g noisettes",
-      "dejeuner": "12h45 – 150g steak haché 5% grillé + 200g pommes de terre vapeur + haricots verts surgelés + 1 c.à.s huile d'olive",
-      "collation2": "16h – 150g fromage blanc 0% + 1 poire",
-      "diner": "19h30 (pour 2 personnes) – 320g pavé de saumon (surgelé) en papillote + 300g riz complet + brocolis surgelés + citron + 2 c.à.s huile d'olive"
+      "avant": "6h45 – Eau + café, 1 pomme",
+      "petitDej": "8h15 – 200g skyr nature + 50g muesli sans sucre ajouté + 1 grappe de raisin",
+      "collation1": "10h30 – 1 poire + 20g noisettes",
+      "dejeuner": "12h45 – 160g blanc de poulet grillé + 200g pommes de terre vapeur + champignons poêlés + 1 c.à.s huile d'olive",
+      "collation2": "16h – 150g fromage blanc 0% + 1 pêche",
+      "diner": "19h30 (pour 2 personnes) – 320g filet de colin (surgelé) au four + 300g riz complet + chou-fleur vapeur + citron + 2 c.à.s huile d'olive"
     },
     {
-      "date": "2026-09-22",
+      "date": "2026-09-29",
       "label": "Mardi",
       "avant": "6h45 – Eau + café, 1 banane avant la séance (plus intense)",
       "petitDej": "8h15 – 3 oeufs au plat + 2 tranches de pain complet + 1/2 avocat",
       "collation1": "10h30 – 1 banane + 15g noix de cajou",
-      "dejeuner": "12h45 – 150g filet de saumon grillé + 200g semoule complète + fenouil et carottes rôtis + 1 c.à.s huile d'olive",
-      "collation2": "16h – 150g skyr nature + 1 orange",
-      "diner": "19h30 (pour 2 personnes) – 320g filet de lieu noir (surgelé) au four + 300g purée de patate douce + poireaux fondants + 2 c.à.s huile d'olive"
+      "dejeuner": "12h45 – 150g filet de truite grillée + 200g semoule complète + aubergines rôties + 1 c.à.s huile d'olive",
+      "collation2": "16h – 150g skyr nature + 1 poire",
+      "diner": "19h30 (pour 2 personnes) – 2 boîtes de sardines à l'huile égouttées (240g) + 350g pommes de terre en salade + tomates et oignon rouge + 2 c.à.s huile d'olive"
     },
     {
-      "date": "2026-09-23",
+      "date": "2026-09-30",
       "label": "Mercredi",
       "avant": "6h45 – Eau + thé, 3 dattes",
-      "petitDej": "8h15 – Pancakes protéinés maison (100g flocons d'avoine + 2 oeufs + 100g fromage blanc mixés) + 80g framboises surgelées",
-      "collation1": "10h30 – 170g yaourt grec + 1 clémentine",
-      "dejeuner": "12h45 – 200g haricots rouges cuits (boîte) + 2 oeufs durs émincés + salade de carottes râpées et radis + 1 c.à.s huile d'olive",
-      "collation2": "16h – 150g skyr nature + 1 nectarine",
-      "diner": "19h30 (pour 2 personnes) – Bolognaise de lentilles vertes (300g lentilles vertes cuites + sauce tomate + oignons + carottes) + 240g pâtes complètes + salade verte"
+      "petitDej": "8h15 – Pancakes protéinés maison (100g flocons d'avoine + 2 oeufs + 100g fromage blanc mixés) + 2 figues fraîches",
+      "collation1": "10h30 – 170g yaourt grec + 1 pomme",
+      "dejeuner": "12h45 – 200g pois chiches cuits (boîte) + 2 oeufs durs émincés + salade de betteraves et roquette + 1 c.à.s huile d'olive",
+      "collation2": "16h – 150g skyr nature + 1 grappe de raisin",
+      "diner": "19h30 (pour 2 personnes) – Bolognaise de dinde (300g dinde hachée + sauce tomate + champignons + carottes) + 240g pâtes complètes + salade verte"
     },
     {
-      "date": "2026-09-24",
+      "date": "2026-10-01",
       "label": "Jeudi",
-      "avant": "6h45 – Eau + café, 1 kiwi si besoin d'énergie",
-      "petitDej": "8h15 – 200g skyr nature + 50g muesli sans sucre ajouté + 1 kiwi",
-      "collation1": "10h30 – 1 poire + 20g amandes",
-      "dejeuner": "12h45 – 150g filet de lieu noir poêlé + 180g riz complet + brocolis vapeur + 1 c.à.s huile d'olive",
-      "collation2": "16h – 2 oeufs durs + 1 clémentine",
-      "diner": "19h30 (pour 2 personnes) – Sauté de crevettes et légumes (300g crevettes surgelées + poivrons + brocolis + sauce soja légère) + 240g riz complet"
+      "avant": "6h45 – Eau + café, 1 pomme si besoin d'énergie",
+      "petitDej": "8h15 – 200g skyr nature + 50g flocons d'avoine + 1 poire",
+      "collation1": "10h30 – 1 pêche + 20g amandes",
+      "dejeuner": "12h45 – 150g blanc de poulet grillé + 180g riz complet + épinards frais sautés + 1 c.à.s huile d'olive",
+      "collation2": "16h – 2 oeufs durs + 1 pomme",
+      "diner": "19h30 (pour 2 personnes) – Sauté de dinde et légumes (300g dinde émincée + poivrons + chou-fleur + sauce soja légère) + 240g riz complet"
     }
   ],
   "shopping": [
     {
       "category": "Proteines",
       "items": [
-        "Saumon (pavés surgelés) – 500g",
-        "Cabillaud surgelé (filets) – 320g",
-        "Lieu noir surgelé (filets) – 500g",
-        "Steak haché 5% MG – 500g",
-        "Crevettes surgelées décortiquées – 600g",
-        "Thon au naturel en boîte – 2 boîtes (200g égoutté)",
-        "Oeufs – 2 boîtes de 12",
-        "Lentilles vertes cuites (sachets cuisson) – 500g",
-        "Lentilles corail (sec) – 250g",
-        "Haricots rouges en boîte – 1 boîte (400g)"
+        "Blanc de poulet (filets) – 500g",
+        "Dinde hachée – 800g",
+        "Filets de dinde émincés – 300g",
+        "Maquereau au naturel en boîte – 2 boîtes",
+        "Truite (pavés surgelés) – 500g",
+        "Colin surgelé (filets) – 320g",
+        "Merlu surgelé (filets) – 320g",
+        "Sardines à l'huile d'olive en boîte – 2 boîtes (240g égoutté)",
+        "Pois chiches en boîte – 2 boîtes (400g égoutté)",
+        "Oeufs – 2 boîtes de 12"
       ]
     },
     {
       "category": "Feculents",
       "items": [
-        "Riz complet – 1kg",
+        "Riz complet – 1,5kg",
         "Semoule complète – 500g",
         "Quinoa – 500g",
         "Pommes de terre – 1kg",
@@ -105,30 +105,26 @@
     {
       "category": "Fruits & legumes",
       "items": [
-        "Kiwis – 5",
-        "Bananes – 4",
-        "Oranges – 3",
-        "Clémentines – 3",
-        "Poires – 3",
-        "Nectarines – 2",
-        "Pommes – 2",
-        "Avocat – 1",
-        "Citrons – 2",
+        "Pommes – 6",
+        "Poires – 5",
+        "Raisin – 1kg",
+        "Pêches – 4",
+        "Bananes – 3",
+        "Figues fraîches – 4-6",
         "Dattes – 1 petit paquet",
-        "Framboises surgelées – 300g",
-        "Tomates – 5",
-        "Concombre – 1",
-        "Radis – 2 bottes",
-        "Haricots verts surgelés – 500g",
-        "Épinards surgelés – 300g",
-        "Salade verte – 2 sachets",
-        "Fenouil – 2",
-        "Carottes – 1kg",
-        "Poireaux – 3",
-        "Brocolis surgelés – 600g",
-        "Poivrons – 3",
-        "Oignons – 1 filet (500g-1kg)",
-        "Patate douce – 600g"
+        "Citrons – 2",
+        "Avocat – 1",
+        "Tomates – 6",
+        "Poivrons – 6",
+        "Épinards frais – 2 sachets (600g)",
+        "Aubergines – 4",
+        "Chou-fleur – 2",
+        "Betteraves cuites (sous vide) – 1 sachet (400g)",
+        "Roquette – 1 sachet",
+        "Champignons – 400g",
+        "Carottes – 500g",
+        "Oignon rouge – 2",
+        "Salade verte – 2 sachets"
       ]
     },
     {
@@ -137,7 +133,7 @@
         "Skyr nature – 2 pots de 500g",
         "Fromage blanc 0% – 1 pot de 500g",
         "Yaourt grec – 1 pot (340-400g)",
-        "Emmental râpé léger – 1 petit sachet (100g)",
+        "Comté râpé – 1 petit sachet (100g)",
         "Lait demi-écrémé – 1L"
       ]
     },
@@ -146,17 +142,14 @@
       "items": [
         "Huile d'olive – 1 bouteille",
         "Miel – 1 petit pot",
-        "Sauce tomate (bocal ou boîte)",
-        "Lait de coco allégé – 1 boîte (400ml)",
-        "Curry en poudre / épices",
+        "Sauce tomate (bocal ou boîte) – 2",
         "Sauce soja légère – 1 petite bouteille",
         "Amandes – 50g",
-        "Noix – 50g",
-        "Noisettes – 50g",
         "Noix de cajou – 50g",
+        "Noisettes – 50g",
         "Café / thé (si besoin)"
       ]
     }
   ],
-  "notes": "Budget estimé : environ 130-145 euros pour la semaine. Vraie rotation par rapport à la semaine du 11/09 : saumon, cabillaud, lieu noir, steak haché 5%, crevettes, lentilles corail et haricots rouges remplacent la dinde hachée, le maquereau, la truite, le merlu, le poisson blanc, les sardines et les pois chiches de la semaine dernière (le thon, les oeufs et les lentilles vertes restent en usage réduit/différent). Fruits également renouvelés : kiwis, oranges, clémentines, nectarines remplacent poires/pêches/figues/raisin/prunes/myrtilles de la semaine précédente. Légumes renouvelés : fenouil, poireaux fondants, patate douce en purée, radis, carottes râpées, poivrons remplacent poivrons rôtis/aubergine/chou-fleur/betteraves/champignons de la semaine dernière. Priorité aux surgelés et conserves (poisson, crevettes, légumes) pour limiter l'encombrement du petit réfrigérateur. Aucun tofu ni courgette dans ce plan. Toutes les portions sont pour Nicolas seul, sauf le dîner qui est calculé pour 2 personnes (Nicolas + sa compagne)."
+  "notes": "Budget estimé : environ 130-145 euros pour la semaine. Vraie rotation par rapport à la semaine du 18/09 : poulet, dinde hachée/émincée, maquereau, truite, colin, merlu, sardines et pois chiches remplacent le saumon, cabillaud, lieu noir, steak haché 5%, crevettes, thon, lentilles vertes/corail et haricots rouges de la semaine dernière (seuls les oeufs et les produits laitiers restent des piliers récurrents). Fruits également renouvelés : pommes, poires, raisin, pêches, figues fraîches remplacent kiwis/oranges/clémentines/nectarines/framboises surgelées de la semaine précédente. Légumes renouvelés : aubergines, chou-fleur, betteraves, champignons, épinards frais, roquette remplacent fenouil/poireaux/brocolis surgelés/patate douce/haricots verts/concombre/radis de la semaine dernière. Priorité aux surgelés (poisson) et conserves (maquereau, sardines, pois chiches) pour limiter l'encombrement du petit réfrigérateur. Aucun tofu ni courgette dans ce plan. Toutes les portions sont pour Nicolas seul, sauf le dîner qui est calculé pour 2 personnes (Nicolas + sa compagne)."
 }
